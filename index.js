@@ -1,4 +1,6 @@
-// Recursive function to flatten a multi-dimensional array
+// Flatten a multi-dimensional array
+// by recursively concatenating non-Array
+// elements
 const flatten = arr =>
     // Use a reducer since its behavior is well
     // suited to recursion
